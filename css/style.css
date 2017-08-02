@@ -1,0 +1,21 @@
+a{
+	color: black; text-decoration: none;
+}
+
+h1{
+	font-family: serif;
+}
+
+div{
+
+	width: 500px;
+	background:red;
+	margin:auto;
+	
+}
+
+.content{
+	background: blue;
+	float:left;
+	width: 80%;
+}
