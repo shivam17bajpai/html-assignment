@@ -1,0 +1,63 @@
+* { margin: 0; padding: 0; outline:0; }
+
+body {
+    
+    background: url('images/.jpeg'); 
+}
+
+
+#navigation ul li{
+	display: inline;
+	padding-right:30px;
+	float: right;
+
+}
+
+h2 {font-size:10px; color:#f2a223; font-weight:bold;
+}
+
+
+
+#navigation ul li a { color: #e7b038; text-decoration: none; cursor:pointer; }
+
+
+#navigation ul li a:hover { text-decoration: underline; color:#d91d2a; }
+
+#task ul li a { color: #e7b038; text-decoration: none; cursor:pointer; }
+
+
+#task ul li a:hover { text-decoration: underline; color:#d91d2a; }
+
+.movie-image { float:left; width:400px; height:250px; position:relative; }
+.movie-image .p{font-size:10px; color:#f2a223; font-weight:bold;}
+
+.movie-image img { width:152px; height:214px; }
+.movie-image a { float: left; display: inline; width:152px; height:214px; position: relative; z-index: 2; }
+.play { position: absolute; top: 0; left: 0; width:152px; height:214px; background: url('images/image-hover.png'); display:block; z-index: 5; cursor:pointer; display:none; }
+
+ 
+
+
+
+.hero {
+	height: 250px;
+	
+    background-size: 1500px 350px;
+    font-size: 20px;
+  	background-image: url("images/last.jpeg");
+  background-repeat: no-repeat;
+  
+  text-align: : center;
+
+}
+/*FOOTER*/
+.foot {
+    
+    padding: 20px;
+    color: #cccccc;
+    background-color: white;
+    position: relative;
+	top:430px;
+
+}
+
